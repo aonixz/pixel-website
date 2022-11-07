@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-camera"></i> Pixel </a>
+    <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#products">products</a>
+        <a href="#about">about</a>
+        <a href="#courses">courses</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-user-plus" id="register-btn"></div>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="input-box">
+        <label for="input-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/cat-1.png" alt="">
+            <div class="content">
+                <h3>Adobe XD</h3>
+                <span class="price">$100.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/cat-2.png" alt="">
+            <div class="content">
+                <h3>Adobe Illustrator </h3>
+                <span class="price">$200.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/cat-3.png" alt="">
+            <div class="content">
+                <h3>Photoshop </h3>
+                <span class="price">$110.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $412.97/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+    <form action="" class="register-form">
+        <h3>Register now</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <input type="password" placeholder="password confirmation" class="box">
+        <input type="submit" value="register now" class="btn">
+    </form>
+
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3> P<span>IXEL</span></h3>
+        <p> A photography portfolio is a collection of work that illustrates who you are as a photographer. A portfolio website takes this a step further and allows photographers to put their best work on full display for the world to see</p>
+        <a href="#" class="btn">Join us</a>
+    </div>
+
+    <div class="image">
+        <img src="" alt="">
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading"> our <span>products</span> </h1>
+    <div class="swiper products-slider" data-aos="zoom-in">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/leica.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>leica m6</h3>
+                    <div class="price"> $279.99 <span>$395.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/canon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>canon</h3>
+                    <div class="price"> $279.99 <span>$395.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/nikon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>nikon</h3>
+                    <div class="price"> $289.99 <span>$305.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/nikon-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>nikon </h3>
+                    <div class="price"> $179.99 <span>$295.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/ricoh.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ricoh</h3>
+                    <div class="price"> $279.99 <span>$495.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/ricoh-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ricoh</h3>
+                    <div class="price"> $379.99 <span>$495.99</span> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="content" data-aos="fade-right">
+        <h3>about us</h3>
+        <p>Whether you are an amateur or a professional photographer, you must create a professional photography portfolio website that showcases your work and profile. Your online portfolio is the key to gaining new clients and growing your business.  With photography portfolio websites becoming the default medium of presenting your work to the world, you must understand the do's and don'ts of creating a portfolio. We had earlier put together a comprehensive</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<section class="courses" id="courses">
+    <h1 class="heading"> new <span>courses</span> </h1>
+    <div class="box-container">
+        <div class="box" data-aos="fade-down">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/dreamweaver.png" alt="">
+            </div>
+            <div class="content">
+                <h3>dream weaver</h3>
+                <div class="price"> $179.99 <span>$195.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/audition.png" alt="">
+            </div>
+            <div class="content">
+                <h3>audition</h3>
+                <div class="price"> $99.99 <span>$125.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/indesign.png" alt="">
+            </div>
+            <div class="content">
+                <h3>indesign</h3>
+                <div class="price"> $99.99 <span>$125.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/character-animator.png" alt="">
+            </div>
+            <div class="content">
+                <h3>character animator</h3>
+                <div class="price"> $109.99 <span>$155.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/lightroom.png" alt="">
+            </div>
+            <div class="content">
+                <h3>light room </h3>
+                <div class="price"> $179.99 <span>$200.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <img src="img/muse.png" alt="">
+            </div>
+            <div class="content">
+                <h3>muse</h3>
+                <div class="price"> $89.99 <span>$95.99</span> </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://maps.google.com/maps?q=iran%20hamedan&t=&z=11&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+        <form action="">
+            <h3 data-aos="zoom-in">tell us something!</h3>
+            <input data-aos="zoom-in" type="text" placeholder="your name" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="your email" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="your number" class="box">
+            <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+        <div class="box" data-aos="fade-right">
+            <div class="image">
+                <img src="img/blog1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Based in Budapest </h3>
+                <p>He loves to observe small details and figure out the story behind it. He has participated in different photography exhibitions in Istanbul. Ekrem uses a large banner on the homepage of his photography portfolio website to direct the viewers towards his work.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by user1 </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="image">
+                <img src="img/blog2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Oanh Tran </h3>
+                <p>Her online portfolio site features her photography and design works. Oanh was born in Vietnam and is an architect by profession. She is inspired by travel, nature, and architecture and likes to create art which has patterns, light and shadows and compositions. Her site displays the work across categories in a full-width banner. Following a subtle palette, her images are stunning and make the viewer eager to explore the site</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by Oanh </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="img/blog3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Justin </h3>
+                <p>He works as a staff photographer in the North Dakota University and also takes up freelance photography assignments. His photography portfolio displays images in a dynamic horizontal format in different categories, that allow for easy navigation</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 29st december, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by justin </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box" data-aos="fade-right">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> iran </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+        </div>
+        <div class="box" data-aos="fade-down">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-angle-right"></i> home </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> products </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> about </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> courses </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> contact </a>
+            <a href="#"> <i class="fas fa-angle-right"></i> blogs </a>
+        </div>
+        <div class="box" data-aos="fade-up">
+            <h3>contact us</h3>
+            <a href="#"> <i class="fas fa-envelope"></i> mahlaakbari@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> hamedan, iran </a>
+        </div>
+    </div>
+    <div class="credit"> created by <span>Alireza esrafili</span> | all rights reserved </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay:400,
+        duration:800
+    });
+</script>
+
+</body>
+</html>
